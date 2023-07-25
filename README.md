@@ -1,14 +1,14 @@
 # MNIST Image Classification
 
-This project uses machine learning to classify handwritten digits from the MNIST dataset. We compare several classification algorithms to see which one performs the best.
+This project uses machine learning to classify handwritten digits from the MNIST dataset. I compare several classification algorithms to see which one performs the best.
 
 ## Data
 
-We use the MNIST dataset, which has 70,000 images of handwritten digits. The dataset is split into 60,000 training images and 10,000 test images. Each image is 28x28 pixels and labeled with the digit it represents (0-9). The data comes from http://yann.lecun.com/exdb/mnist/.
+I used the MNIST dataset, which has 70,000 images of handwritten digits. The dataset is split into 60,000 training images and 10,000 test images. Each image is 28x28 pixels and labeled with the digit it represents (0-9). The data comes from http://yann.lecun.com/exdb/mnist/.
 
 ## Models
 
-We compare the following classification algorithms:
+I compared the following classification algorithms:
 - Support Vector Classification (`SVC`)
 - Random Forest Classification (`RandomForestClassifier`)
 - Neural Network Classification (`MLPClassifier`)
@@ -17,4 +17,4 @@ We compare the following classification algorithms:
 
 ## Results
 
-We evaluate each algorithm on the test data and compare their performance. We report the performance of the best-performing algorithm.
+I evaluated each algorithm on the test data and compare their performance. We report the performance of the best-performing algorithm.
