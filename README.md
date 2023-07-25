@@ -1,16 +1,20 @@
 # MNIST Image Classification
 
-This project is a deep learning model for classifying handwritten digits using the MNIST dataset. The model is implemented using Keras and demonstrates the use of convolutional neural networks for image classification.
+This project uses machine learning to classify handwritten digits from the MNIST dataset. We compare several classification algorithms to see which one performs the best.
 
-## Getting Started
+## Data
 
-To get started with this project, you'll need to have Python 3 and the following libraries installed:
-- Keras
-- TensorFlow
-- NumPy
-- Matplotlib
+We use the MNIST dataset, which has 70,000 images of handwritten digits. The dataset is split into 60,000 training images and 10,000 test images. Each image is 28x28 pixels and labeled with the digit it represents (0-9). The data comes from http://yann.lecun.com/exdb/mnist/.
 
-You can install these libraries using `pip` by running the following command:
+## Models
 
-pip install keras tensorflow numpy matplotlib
+We compare the following classification algorithms:
+- Support Vector Classification (`SVC`)
+- Random Forest Classification (`RandomForestClassifier`)
+- Neural Network Classification (`MLPClassifier`)
+- XGBoost Classification (`XGBClassifier`)
+- Logistic Regression (`LogisticRegression`)
 
+## Results
+
+We evaluate each algorithm on the test data and compare their performance. We report the performance of the best-performing algorithm.
